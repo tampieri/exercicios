@@ -11,11 +11,11 @@ public class ExemploCalculadora {
 		System.out.print("Informe o numero: ");
 		double num1 = entrada.nextDouble();
 		
-		System.out.print("Informe o numero: ");
-		double num2 = entrada.nextDouble();
-		
 		System.out.print("Informe o operador: ");
 		String operador = entrada.next();
+		
+		System.out.print("Informe o numero: ");
+		double num2 = entrada.nextDouble();
 		
 		//Logica da operação
 		double result = "+".equals(operador) ? num1 + num2 : 0;
