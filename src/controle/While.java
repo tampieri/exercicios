@@ -11,5 +11,4 @@ public class While {
 			contador++;
 		}
 	}
-
 }
