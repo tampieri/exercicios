@@ -34,6 +34,9 @@ public class Produto {
 	}
 	
 	public double precoComDesconto(double descontoAuxiliar) {
-		return preco * (1 - desconto + descontoAuxiliar);
-	}	
+		final double descontoSomado = desconto + descontoAuxiliar;
+		return preco * (1 - descontoSomado);
+	}
+	
+	double descontoSomado = desconto + 0.10;
 }
