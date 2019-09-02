@@ -13,9 +13,14 @@ public class Produto {
 		nome = nomeInicial;
 	}
 	
-	Produto(String nomeInicial, double precoInicial){
-		nome = nomeInicial;
-		preco = precoInicial;
+	/*
+	 * Produto(String nomeInicial, double precoInicial){ nome = nomeInicial; preco =
+	 * precoInicial; }
+	 */
+	
+	Produto(String nome, double preco){
+		this.nome = nome;
+		this.preco = preco;
 	}
 	
 	Produto(String nomeInicial, double precoInicial, double descontoInicial){
@@ -25,7 +30,7 @@ public class Produto {
 	}
 	
 	double precoComDesconto() {
-		return preco * (1 - desconto);
+		return this.preco * (1 - this.desconto);
 	}
 	
 	public double precoComDesconto(double descontoAuxiliar) {
