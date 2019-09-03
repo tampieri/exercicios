@@ -35,7 +35,6 @@ public class Mapa {
 		
 		for (String usu : usuarios.values()) {
 			System.out.println(usu);
-
 		}
 		
 		for(Entry<Integer, String> reg : usuarios.entrySet()) {
