@@ -9,7 +9,7 @@ public class Lista {
 
 		List<UsuarioLista> lista = new ArrayList<>();
 		
-		UsuarioLista u1 = new UsuarioLista("Higor");
+		UsuarioLista u1 = new UsuarioLista("Higor", "ddddd");
 		lista.add(u1);
 		
 		lista.add(new UsuarioLista("Samara"));
