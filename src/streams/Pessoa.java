@@ -9,6 +9,9 @@ public class Pessoa {
 		this.nome = nome;
 		this.tamanho = tamanho;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "Pessoa [nome=" + nome + ", tamanho=" + tamanho + "]";
+	}
 }
